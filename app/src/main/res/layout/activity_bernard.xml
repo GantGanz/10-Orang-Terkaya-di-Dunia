@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BernardActivity">
+
+    <TextView
+        android:id="@+id/namaJeffTextView"
+        style="@style/CodeNama"
+        android:text="Bernard Arnault"
+        android:textColor="#0347F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        app:srcCompat="@drawable/bernard"
+        style="@style/CodeFoto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243"
+        />
+
+    <TextView
+        android:id="@+id/DescJeffTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Bernard Jean Étienne Arnault ( Bahasa Perancis: [bɛʁnaːʁ aʁno] ; lahir 5 Maret 1949) adalah seorang tokoh bisnis, investor, dan kolektor seni Perancis. Arnault adalah Ketua dan Kepala Eksekutif LVMH Moët Hennessy - Louis Vuitton SE, yang biasa disebut sebagai LVMH , perusahaan barang mewah terbesar di dunia. Dia adalah orang terkaya di Eropa dan orang terkaya kedua di dunia menurut majalah Forbes , dengan kekayaan bersih $ 108 miliar , pada Juli 2019. Pada April 2018, ia menjadi orang terkaya di dunia. fashion , menggulingkan Amancio Ortega milik Zara ."
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Kekayaan : 76 miliar dollar AS (Rp 1.060 triliun)"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655" />
+</androidx.constraintlayout.widget.ConstraintLayout>

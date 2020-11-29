@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.elegantsbox.dicodingsubmission">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".LarrypActivity" />
+        <activity android:name=".MichaelActivity" />
+        <activity android:name=".MarkActivity" />
+        <activity android:name=".LarryActivity" />
+        <activity android:name=".AmancioActivity" />
+        <activity android:name=".CarlosActivity" />
+        <activity android:name=".BernardActivity" />
+        <activity android:name=".WarrentActivity" />
+        <activity android:name=".BillActivity" />
+        <activity android:name=".JeffActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
